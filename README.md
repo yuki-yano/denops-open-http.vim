@@ -10,9 +10,7 @@ This plugin depends on [denops.vim](https://github.com/vim-denops/denops.vim).
 
 - [denops.vim](https://github.com/vim-denops/denops.vim)
 
-## Usage
-
-### Open URL
+## Open URL
 
 ```vim
 " Raw URL
@@ -22,13 +20,19 @@ This plugin depends on [denops.vim](https://github.com/vim-denops/denops.vim).
 :e https://github.com/yuki-yano/denops-open-http.vim/blob/main/denops/open-http/main.ts
 ```
 
-### Open from browser for GitHub
+## Open from browser for GitHub
+
+### Demo
+
+https://user-images.githubusercontent.com/5423775/216580122-bcfc5279-2cd7-44cd-b420-926d3da222a3.mp4
+
+### Usage
 
 ```vim
 :OpenHttpGitHubServerStart
 ```
 
-Intall [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja) and [open_github](https://raw.githubusercontent.com/yuki-yano/denops-open-http.vim/main/user_script/open_github.user.js)
+Intall [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja) and [open_github user_script](https://raw.githubusercontent.com/yuki-yano/denops-open-http.vim/main/user_script/open_github.user.js)
 
 Click "Open Vim" button.
 
